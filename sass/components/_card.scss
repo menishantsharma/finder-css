@@ -1,0 +1,28 @@
+.card {
+  padding: 2rem;
+  transition: all 0.2s;
+  cursor: pointer;
+  border-radius: 4px;
+  & > * {
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    img {
+      width: 6rem;
+    }
+  }
+
+  &__title {
+    color: #1f1b2d;
+  }
+
+  &__para {
+    word-break: break-all;
+  }
+
+  &:hover {
+    box-shadow: 0 0.125rem 0.125rem -0.125rem rgba(31, 27, 45, 0.08),
+      0 0.25rem 0.75rem rgba(31, 27, 45, 0.08);
+  }
+}
